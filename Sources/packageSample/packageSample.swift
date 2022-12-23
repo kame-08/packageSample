@@ -7,7 +7,7 @@ public struct packageSample {
 
 @available(iOS 16.0, *)
 public struct packageView: View {
-    @State var text: String!
+    @State var text = "テスト"
     
     public init() {
     }
